@@ -1,0 +1,82 @@
+.normed {color:rgb(145,195,88) ;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s;}
+
+  .best{  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s;
+  color: rgb(85, 85, 85);
+  font-family: 'Raleway', sans-serif;}
+
+.Banner{
+margin-top: 40px;
+}
+
+@media screen and (max-width: 740px) {
+  .Banner { margin-top: 10px;
+  
+  }
+}
+
+
+
+.ContainerHome{
+  animation: fadeInLeft; 
+animation-duration: 2s;
+}
+
+.voirplus{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.voirplus:hover{
+  color:rgb(109,156,99) 
+}
+
+.text1{
+  top: 40%;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 1px #000;
+  background-image: url("machine.jpg");
+  background-size : auto;
+  background-repeat: no-repeat;
+  padding:120px 120px;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 740px) {
+  .text1 {
+      font-size: smaller;
+      width: 450px;
+      height: 350px;
+      max-width: 740px;
+      background-image: url("machine12.jpg");
+      background-size: cover;
+      padding:40px 25px;     
+  }
+}
+
+.machineox{
+  width: 100%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+  }
+  h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    border-color:rgb(145,195,88) ;
+    margin: auto;
+  }
+  h1:before {
+    margin-right: 10px
+  }
+  h1:after {
+    margin-left: 10px
+  }
+
+  .welcome {  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;}

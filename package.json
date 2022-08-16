@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "front": "cd client && npm start",
-    "back": "nodemon server",
+    "back": "nodemon server.js",
     "dev": "concurrently \"npm run front\" \"npm run back\"",
-    "start": "npm start"
+    "start": "nodemon server.js"
   },
   "engines": {
     "node": "16.x" ,
